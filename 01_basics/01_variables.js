@@ -5,5 +5,5 @@ accountCity="Jaipur"
 accountEmail="hc@hc.com"
 accountPassword="919291"
 accountCity="Jalandhar"
-
+/*prefer not to use*/
 console.table([accountId,accountEmail,accountPassword,accountCity])
