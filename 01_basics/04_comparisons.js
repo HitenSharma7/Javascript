@@ -8,6 +8,8 @@ console.log(null>=0)
 //Comparisons convert null into a number(i.e :0) that is why null>=0 is a true
 
 
-console.log(undefined==0)
-console.log(undefined>0)
-console.log(undefined<0)
+// console.log(undefined==0)
+// console.log(undefined>0)
+// console.log(undefined<0)
+
+console.log("2"===2)
