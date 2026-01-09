@@ -22,3 +22,17 @@ const real_another_array= another_array.flat(Infinity)
 console.log(real_another_array)
 //The maximum recursion depth
 //FLAT Returns a new array with all sub-array elements concatenated into it recursively up to the specified depth.
+console.log(Array.isArray("Hiten Sharma"))
+
+console.log(Array.from("Hiten Sharma"))
+console.log(Array.from({name:"Hiten Sharma"}))  //Interesting..... Always Empty Array
+let score1=100
+let score2=200
+let score3=300
+
+console.log(Array.of(score1,score2,score3))
+
+//Summary:-
+// Array.of() → creates array from arguments
+// Array.from() → converts iterable/array-like to array
+// Array.isArray() → checks if value is an array
