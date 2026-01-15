@@ -26,3 +26,22 @@ console.log(obj3)
 
 
 //Lec 17 see for database values.........
+
+
+const course={
+    name:"Javascript in Hindi",
+    price:"999",
+    courseInstructor:"Harry",
+
+}
+
+const {courseInstructor:Instructor}=course
+// console.log(Instructor)
+
+//This is an API
+
+// {
+//     "name":"JavaScript",
+//     "Instructor":"Vicky Kaushal",
+
+// }
