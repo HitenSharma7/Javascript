@@ -27,5 +27,34 @@ function loginUserMessage(username="Hiten")
     }
     return `${username} just logged in` 
 }
-console.log(loginUserMessage())
+// console.log(loginUserMessage())
 
+
+
+//here ... means Rest operator
+
+//Rest operator means that accepting indefinite numbers of arguments as an array 
+function calculateCartPrice(val1,val2,val3,...num1){
+    return num1
+}
+console.log(calculateCartPrice(200,4000,500,650))
+
+const user ={
+    name:"hiten",
+    price:199,
+}
+function handleObject (anyObject)
+{
+    console.log(`Username is ${anyObject.name} and price is ${anyObject.price}`)
+
+}
+
+handleObject(user)
+
+const myNewArray=[100,2010,300,600]
+
+function returnSecondValue (getArray)
+{
+    return getArray[1]
+}
+console.log(returnSecondValue(myNewArray))
