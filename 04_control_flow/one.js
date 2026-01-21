@@ -34,5 +34,7 @@ console.log("You are allowed to buy the course")
 }
 
 if(loggedinFromGoogle||loggedinFromEmail ||Guest){
+
     console.log("User logged in")
+    
 }
