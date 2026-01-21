@@ -1,26 +1,38 @@
 //if
 const isUserLoggedin= true
 const temperature=-56
-if(temperature>30)
-{
-    console.log("It is Summer Seson")
-}
-else{
-    console.log("It is winter season")
-}
+// if(temperature>30)
+// {
+//     console.log("It is Summer Seson")
+// }
+// else{
+//     console.log("It is winter season")
+// }
 
 //var has global scope
 //let and const have local scope and it is better
 
-const balance =500
-if (balance>500){
-    console.log("Balance is greater than 500")
+const age =21
+if (age>18){
+    console.log("You are allowed to vote")
 }
-elseif(balance>750)
+else if(age=18)
 {
-console.log("Balance is greater than 750")
+console.log("You are allowed to vote")
 }
-elseif(balance>1000)
+ else {
+console.log("You are not allowed to vote")
+}
+const userLoggedin=true 
+const debitCard=true
+const loggedinFromGoogle=true
+const loggedinFromEmail=true
+const Guest=true
+if(userLoggedin && debitCard && 2==2)
 {
-    console.log("Balance is Greater than 1000")
+console.log("You are allowed to buy the course")
+}
+
+if(loggedinFromGoogle||loggedinFromEmail ||Guest){
+    console.log("User logged in")
 }
