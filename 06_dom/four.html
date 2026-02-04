@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,9 +11,12 @@
     <ul class="language">
         <li>JavaScript</li>
     </ul>
-    
+
 </body>
 <script>
+
+//Here in this Particular file ,we createda list and performed DOM manipulation on it like adding new items,edit and remove
+
     function addLanguage(langName){
      const listItem= document.createElement('li')
      listItem.innerHTML=`${langName}`
@@ -41,8 +46,8 @@ secondLang.replaceWith(newli)
 const firstLang=document.querySelector("li:first-child")
 firstLang.outerHTML= '<li>Ruby</li>'
 //Remove
-
 const lastLang= document.querySelector("li:last-child")
 lastLang.remove()
+
 </script>
 </html>
