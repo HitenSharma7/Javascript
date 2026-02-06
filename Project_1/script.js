@@ -45,5 +45,11 @@ buttons.forEach(function(button){
     body.style.backgroundColor=e.target.id;
     
    }
+   if(e.target.id==='rosyBrown'){
+    body.style.backgroundColor=e.target.id;
+    }
+   if(e.target.id==='green'){
+    body.style.backgroundColor=e.target.id;
+    }
   });
 });

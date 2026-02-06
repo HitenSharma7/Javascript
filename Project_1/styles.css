@@ -46,3 +46,10 @@ span {
 #crimson{
     background: rgb(186, 12, 47);
 }
+#rosyBrown{
+    /* background: rgb(229, 190, 192); */
+      background: rosybrown;
+}
+#green{
+    background: green;
+}
