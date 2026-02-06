@@ -22,12 +22,27 @@ span {
   background: grey;
 }
 
-#white {
-  background: white;
+#red {
+  background: red;
 }
 #blue {
   background: blue;
 }
 #yellow {
   background: yellow;
+}
+#black{
+    background:black
+}
+#beige{
+    background: beige;
+}
+#purple{
+    background: purple;
+}
+#orange{
+    background:orange;
+}
+#crimson{
+    background: rgb(186, 12, 47);
 }
