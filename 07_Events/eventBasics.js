@@ -1,0 +1,1 @@
+const one=console.log(1+1)
