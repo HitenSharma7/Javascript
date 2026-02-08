@@ -1,3 +1,4 @@
+// This project is a BMI checker with HTml,css and Javascript
 const form = document.querySelector('form')
 
 form.addEventListener('submit',function (e){
